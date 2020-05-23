@@ -18,8 +18,9 @@
 
 // extern crate test; // 引入测试模块
 
-pub mod mjsort;
+pub mod sorts;
 // use mjsort::uks;
+pub mod generic;
 
 pub fn add_two(a: i32) -> i32 {
    a + 2
@@ -37,8 +38,8 @@ mod tests {
 
    #[test]
    fn is_five() {
-      assert_eq!(5, mjsort::get5());
-      assert_eq!(5, mjsort::uks::get5());
+      assert_eq!(5, sorts::get5());
+      assert_eq!(5, sorts::uks::get5());
    }
 
     // #[bench]

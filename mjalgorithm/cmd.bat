@@ -5,7 +5,8 @@ REM 测试例子
 REM cargo run --example hello -- meijie
 REM cargo run --example hello meijie
 REM cargo run --example addtwo
-REM cargo run --example bubble
+REM cargo run --example sorts
+cargo run --example generic
 
 REM 性能指标
-cargo bench
+REM cargo bench
