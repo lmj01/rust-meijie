@@ -10,7 +10,8 @@ pub fn get5() -> i32 {
 }
 
 
-// type fnType = fn<T: Ord>(&mut [T]) -> ();
+type fnType1 = ();
+type fnType2 = Fn(&mut [T]);// where T: Ord;
 
 // pub fn test_func (fn_ptr: fnType) {
 

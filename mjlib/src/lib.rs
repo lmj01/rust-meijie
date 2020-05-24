@@ -1,3 +1,6 @@
+
+pub mod mjtrait;
+
 #[cfg(test)]
 mod tests {
     #[test]
@@ -10,3 +13,4 @@ mod tests {
 pub fn hi(name: &str) {
     println!("hi : {}", name);
 }
+
