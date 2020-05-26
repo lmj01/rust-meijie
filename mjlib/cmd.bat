@@ -1,4 +1,5 @@
 @echo off 
 
 REM 例子
-cargo run --example trait
+REM cargo run --example trait
+cargo run --example punctuation

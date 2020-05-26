@@ -3,6 +3,16 @@ use mjalgorithm::sorts;
 
 fn main() {
 
-    // sorts::test_func(sorts::bubble::bubble_sort);
-    sorts::bubble::bubble_test();
+    println!("--bubble--");
+    sorts::bubble::test();
+    println!("--comb of bubble--");
+    sorts::comb::test();
+    println!("--select--");
+    sorts::selection::test();
+    println!("--quick--");
+    sorts::quick::test();
+    println!("--merge--");
+    sorts::merge::test();
+    println!("--insertion--");
+    sorts::insertion::test();
 }

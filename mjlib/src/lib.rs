@@ -1,5 +1,6 @@
 
 pub mod mjtrait;
+pub mod punctuation;
 
 #[cfg(test)]
 mod tests {
